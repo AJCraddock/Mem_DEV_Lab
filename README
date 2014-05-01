@@ -1,0 +1,16 @@
+The intended usage of this for the Memory Development lab. 
+
+It is recommend to run the MemLab.py, it will generate the reports for
+the encoding and retrieval runs. 
+
+To run the MemLab.py the command is:
+
+python MemLab.py -i path/to/directory/containing/Data/folders
+
+The MemLab.py is the driver for the processEncoding.py and processRetrieval.py.
+These will actually generate the summaries for each patient. If desired 
+you can run these programs individually.
+
+For the programs processEncoding.py and processRetrieval.py the command is-
+
+python programName.py path/to/directory 
